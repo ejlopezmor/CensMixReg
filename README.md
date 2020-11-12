@@ -1,5 +1,5 @@
 # CensMixReg
-CensMixReg is a R library to fit censored linear models of finite mixture. 
+
 This repository contains the code for the paper 
 ```Finite mixture modeling of censored data using the multivariate Student-t distribution.```
 Published at JMVA 2017.
@@ -21,3 +21,9 @@ information-based method for approximating the asymptotic covariance matrix of t
 estimators is also presented. Results obtained from the analysis of both simulated and real
 datasets are reported to demonstrate the effectiveness of the proposed methodology. The
 proposed algorithm and methods are implemented in the new R package CensMixReg.
+
+## Documentation
+All code lives in the src folder with experiment runs fully specified by the json config files in src/experiments. Provide the path to the config file to the main run.py. For example, navigate to the src directory and run
+
+## Authors
+The code in this repository is developed by Timothy Gebhard and Niki Kilbertus. It is distributed under the GPL-3.0 license (see LICENSE file for details), which means in particular that it is provided as is, without any warranty, liability, or guarantees regarding its correctness.
