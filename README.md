@@ -1,5 +1,6 @@
 # CensMixReg
 Censored Linear Mixture Regression Models - CensMixReg is a R library to fit censored linear regression models where the random errors follow a finite mixture of Scale Mixture Normal distributions. Fit censored linear models of finite mixture multivariate Student-t and Normal distributions. Fit censored mixture regression models based on scale mixture of normal distributions. Specifically, this repository contains the code for the paper 
+[Finite mixture modeling of censored data using the multivariate Student-t distribution](https://www.sciencedirect.com/science/article/pii/S0047259X1730310X)
 ```Finite mixture modeling of censored data using the multivariate Student-t distribution.```
 Published at JMVA 2017.
 
@@ -21,8 +22,5 @@ estimators is also presented. Results obtained from the analysis of both simulat
 datasets are reported to demonstrate the effectiveness of the proposed methodology. The
 proposed algorithm and methods are implemented in the new R package CensMixReg.
 
-## Documentation
-All code lives in the src folder with experiment runs fully specified by the json config files in src/experiments. Provide the path to the config file to the main run.py. For example, navigate to the src directory and run
-
 ## Authors
-The code in this repository is developed by Timothy Gebhard and Niki Kilbertus. It is distributed under the GPL-3.0 license (see LICENSE file for details), which means in particular that it is provided as is, without any warranty, liability, or guarantees regarding its correctness.
+The library is developed by [Luis Benites Sanchez](https://github.com/lbenitesanchez), Víctor Hugo Lachos and [Edgar Javier López](https://github.com/ejlopezmor). 
